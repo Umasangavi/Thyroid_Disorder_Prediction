@@ -1,0 +1,16 @@
+base:
+  project: Thyroid_disorder_prediction
+  random_state: 42
+  target_col: Class
+
+data_source:
+  source: data_original/hypothyroid.csv
+
+split_data:
+  train_path: data/raw/train_raw.csv
+  test_path : data/raw/test_raw.csv
+  text_size: 0.3
+
+encoder:
+  train_path: data/encoder/train_encoded_raw.csv
+  test_path: data/encoder/test_encoded_raw.csv
