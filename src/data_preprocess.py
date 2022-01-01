@@ -22,11 +22,9 @@ def preprocessing(config_path):
 
 # ? is replaced with np.nan in train data
     for column in train_data.columns:
-        count = train_data[column][train_data[column]=='?'].count()
-    if count!=0:
-        train_data[column] = train_data[column].replace('?',np.nan)
-    else:
-        pass
+        count =  train_data[column][ train_data[column]=='?'].count()
+        if count!=0:
+            train_data[column] = train_data[column].replace('?',np.nan)
 
     train_data['sex'] = train_data ['sex'].replace({'F' : 0, 'M' : 1})
 
@@ -36,8 +34,9 @@ def preprocessing(config_path):
         elif len(train_data[column].unique())==1:
             train_data[column] = train_data[column].replace({'f' : 0,})
         
-
+   
     train_data['Class'] = train_data['Class'].replace({'negative' : 0, 'compensated_hypothyroid' : 1,'primary_hypothyroid' :2,'secondary_hypothyroid':3})
+   
     train_data["Class"] = train_data["Class"].apply(lambda value : 1 if value >=1 else 0)
 
     imputer=KNNImputer(n_neighbors=3, weights='uniform',missing_values=np.nan)
@@ -52,8 +51,6 @@ def preprocessing(config_path):
         count =  test_data[column][ test_data[column]=='?'].count()
         if count!=0:
             test_data[column] = test_data[column].replace('?',np.nan)
-        else:
-            pass
 
     
     test_data['sex'] = test_data['sex'].replace({'F' : 0, 'M' : 1})
