@@ -19,7 +19,9 @@ def get_data(config_path):
 
     df=pd.read_csv(source_data_path)
     data=df.filter(['TSH','FTI','TT4','T3','query_hypothyroid','on_thyroxine','sex','pregnant','psych','Class'])
+   
     train,test=train_test_split(data,test_size=split_ratio,random_state=random_state)
+   
     train.to_csv(train_data_path,index=False)
     test.to_csv(test_data_path,index=False)
 
