@@ -4,11 +4,16 @@ import yaml
 import os
 import argparse
 from sklearn.impute import KNNImputer
+import logging
+
+logging.basicConfig(filename='loggs.log', level=logging.INFO,
+                    format='%(levelname)s:%(asctime)s:%(message)s')
 
 def read_params(config_path):
     with open(config_path) as yaml_file:
         config=yaml.safe_load(yaml_file)
     return config
+
 
 def preprocessing(config_path):
     config= read_params(config_path)
@@ -74,7 +79,7 @@ def preprocessing(config_path):
     test_impu_data=pd.DataFrame(data=np.round(new_array), columns=test_data.columns)
     test_impu_data.to_csv(test_processed_path,index=False)
     
-
+logging.info('Preprocessing was done for train and test data ')
 
 if __name__=="__main__":
     args = argparse.ArgumentParser()

@@ -20,6 +20,9 @@ balanced_data:
   train_label: datas/balanced_data/train_balanced_label.csv
   test_class: datas/balanced_data/test_class.csv
   test_label: datas/balanced_data/test_label.csv
+
+reports:
+  scores: reports/scores.json
   
 
 metrics:

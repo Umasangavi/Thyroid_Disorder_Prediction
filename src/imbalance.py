@@ -3,6 +3,10 @@ import yaml
 import os
 import argparse
 from imblearn.over_sampling import RandomOverSampler
+import logging
+
+logging.basicConfig(filename='loggs.log', level=logging.INFO,
+                    format='%(levelname)s:%(asctime)s:%(message)s')
 
 def read_params(config_path):
     with open(config_path) as yaml_file:
@@ -36,6 +40,7 @@ def balance(config_path):
     X_train_res.to_csv(train_label_path,index=False)
     y_train_res.to_csv(train_class_path,index=False)
 
+logging.info('Changed imbalanced to balanced for train data')
 
 if __name__=="__main__":
     args = argparse.ArgumentParser()

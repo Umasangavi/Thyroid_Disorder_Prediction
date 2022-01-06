@@ -3,6 +3,10 @@ import yaml
 import os
 import argparse
 from sklearn.model_selection import train_test_split
+import logging
+
+logging.basicConfig(filename='loggs.log', level=logging.INFO,
+                    format='%(levelname)s:%(asctime)s:%(message)s')
 
 def read_params(config_path):
     with open(config_path) as yaml_file:
@@ -19,11 +23,13 @@ def get_data(config_path):
 
     df=pd.read_csv(source_data_path)
     data=df.filter(['TSH','FTI','TT4','T3','query_hypothyroid','on_thyroxine','sex','pregnant','psych','Class'])
-   
+    
+  
     train,test=train_test_split(data,test_size=split_ratio,random_state=random_state)
    
     train.to_csv(train_data_path,index=False)
     test.to_csv(test_data_path,index=False)
+logging.info('Data was splitted and saved sucessfully')
 
 if __name__ =="__main__":
     args = argparse.ArgumentParser()
