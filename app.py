@@ -28,5 +28,5 @@ def prediction():
         prediction=model.predict(arr)
     return render_template('after.html',data=prediction)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()
