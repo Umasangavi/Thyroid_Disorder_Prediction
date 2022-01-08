@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 import numpy as np
 
-model = joblib.load("models/model.pkl")
+
 
 app = Flask(__name__)
 
@@ -23,7 +23,8 @@ def prediction():
         sex = request.form["sex"]
         pregnant = request.form["pregnant"]
         psych = request.form["psych"]
-        arr=np.array([[TSH, FTI ,TT4, T3,query_hypothyroid, on_thyroxine, sex, pregnant, psych]])
+        model = joblib.load("models/model.pkl")
+        arr=np.array([[TSH, FTI ,TT4, T3,query_hypothyroid, on_thyroxine, sex, pregnant, psych]]
         prediction=model.predict(arr)
     return render_template('after.html',data=prediction)
 
