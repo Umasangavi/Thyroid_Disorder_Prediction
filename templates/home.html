@@ -7,7 +7,7 @@
         <p style="color:black;">Fill the form and get your results</p>
         
         
-        <form method="POST", action="{{url_for('home')}}">
+        <form method='POST', action="{{url_for('predict')}}">
             <label style="background-color:Violet;">TSH:</label>
             <input type="number", name='TSH', placeholder="enter">
 
@@ -60,6 +60,12 @@
             <button type="submit" class="btn btn=primary btn=block btn=large">predict</button><br><br>
             <input type="reset">
         </form>
+
+        </center>
+    </body>
+</html>
+
+        
 
             
 
