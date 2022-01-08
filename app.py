@@ -14,15 +14,15 @@ def home():
 @app.route('/prediction', methods=['POST'])
 def prediction():
     if request.method == 'POST':
-        TSH = request.form["TSH"]
-        FTI = request.form["FTI"]
-        TT4 = request.form["TT4"]
-        T3 = request.form["T3"]
-        query_hypothyroid = request.form["query_hypothyroid"]
-        on_thyroxine = request.form["on_thyroxine"]
-        sex = request.form["sex"]
-        pregnant = request.form["pregnant"]
-        psych = request.form["psych"]
+        TSH = (request.form["TSH"])
+        FTI = (request.form["FTI"])
+        TT4 = (request.form["TT4"])
+        T3 = (request.form["T3"])
+        query_hypothyroid = (request.form["query_hypothyroid"])
+        on_thyroxine = (request.form["on_thyroxine"])
+        sex = (request.form["sex"])
+        pregnant = (request.form["pregnant"])
+        psych = (request.form["psych"])
         model = joblib.load("models/model.pkl")
         arr=np.array([[TSH, FTI ,TT4, T3,query_hypothyroid, on_thyroxine, sex, pregnant, psych]]
         prediction=model.predict(arr)
