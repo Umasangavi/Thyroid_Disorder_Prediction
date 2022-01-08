@@ -7,12 +7,13 @@ model = joblib.load("models/model.pkl")
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/',methods=['GET'])
 def home():
     return render_template('home.html')
 
-@app.route('/predict', methods=['POST'])
-def predict():
+@app.route('/prediction', methods=['POST'])
+def prediction():
+    if request.method == 'POST':
         TSH = request.form["TSH"]
         FTI = request.form["FTI"]
         TT4 = request.form["TT4"]
@@ -24,7 +25,7 @@ def predict():
         psych = request.form["psych"]
         arr=np.array([[TSH, FTI ,TT4, T3,query_hypothyroid, on_thyroxine, sex, pregnant, psych]])
         prediction=model.predict(arr)
-        return render_template('after.html',data=prediction)
+    return render_template('after.html',data=prediction)
 
 if __name__ == '__main__':
     app.run()
