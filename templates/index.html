@@ -1,0 +1,88 @@
+<html>
+    <body>
+        <center>
+    
+        <h1 style= "color:black;"> Thyroid disoder prediction</h1>
+        <h4 style="color:black;">This web application is made to predict Thyroid disease with the following parameters given</h4>
+        <p style="color:black;">Fill the form and get your results</p>
+        
+        
+        <form method='POST', action="{{url_for('prediction')}}">
+            <label style="background-color:Violet;">TSH:</label>
+            <input type="number", name='TSH', placeholder="enter"><br><br>
+            
+            <label style="background-color:Violet;">FTI:</label>
+            <input type="number", name='FTI', placeholder="enter"><br><br>
+
+            <label style="background-color:Violet;">TT4:</label>
+            <input type="number", name='TT4', placeholder="enter"><br><br>
+
+            <label style="background-color:Violet;">T3:</label>
+            <input type="number", name='T3', placeholder="enter"><br><br>
+
+            <label style="background-color:Violet;">query_hypothyroid:</label>
+            <select class="text" name="query_hypothyroid">
+                    <option value="1">True</option>
+                    <option value="0">False</option>
+            </select><br><br>
+
+            <label style="background-color:Violet;">on_thyroxine:</label>
+            <select class="text" name="on_thyroxine">
+                <option value="1">True</option>
+                <option value="0">False</option>
+        </select><br><br>
+
+            <label style="background-color:Violet;">sex:</label>
+            <select class="text" name="sex">
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+        </select><br><br>
+
+            <label style="background-color:Violet;">pregnant:</label>
+            <select class="text" name="pregnant">
+                <option value="1">True</option>
+                <option value="0">False</option>
+        </select><br><br>
+
+            <label style="background-color:Violet;">psych:</label>
+            <select class="text" name="psych">
+                <option value="1">True</option>
+                <option value="0">False</option>
+        </select><br><br>
+
+            <input type="submit" , value='Predict'> <br><br> 
+            <input type="reset", value='Reset value'>
+        </form>
+
+        </center>
+    </body>
+</html>
+
+        
+
+            
+
+
+
+
+
+
+
+            
+        
+            
+            
+            
+    
+<<<<<<< HEAD:templates/index.html
+     
+
+       
+
+
+=======
+        
+
+        
+    
+>>>>>>> c821065 (updated):templates/home.html
