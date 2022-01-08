@@ -8,11 +8,11 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def temp():
+def home():
     return render_template('home.html')
 
 @app.route('/predict', methods=['POST'])
-def home():
+def predict():
         TSH = request.form["TSH"]
         FTI = request.form["FTI"]
         TT4 = request.form["TT4"]
