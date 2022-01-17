@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <style>
+            body {background-color:cornflowerblue;}
+        </style>
+    </head>
+    <body>
+        <center>
+    
+        <h1 style= "color:black;"> Thyroid disoder prediction</h1>
+        <h4 style="color:black;">This web application is made to predict Thyroid disease with the following parameters given</h4>
+        <p style="color:black;">Fill the form and get your results</p>
+        
+        
+        <form method='POST', action="{{url_for('prediction')}}">
+            <label style="background-color:rgb(238,130,238);">TSH:</label>
+            <input type="number", name='TSH', placeholder="enter"><br><br>
+            
+            <label style="background-color:rgb(238,130,238);">FTI:</label>
+            <input type="number", name='FTI', placeholder="enter"><br><br>
+
+            <label style="background-color:rgb(238,130,238);">TT4:</label>
+            <input type="number", name='TT4', placeholder="enter"><br><br>
+
+            <label style="background-color:rgb(238,130,238);">T3:</label>
+            <input type="number", name='T3', placeholder="enter"><br><br>
+
+            <label style="background-color:rgb(238,130,238);">query_hypothyroid:</label>
+            <select class="text" name="query_hypothyroid">
+                <option value="text">select</option>
+                <option value="1">True</option>
+                <option value="0">False</option>
+            </select><br><br>
+
+            <label style="background-color:rgb(238,130,238);">on_thyroxine:</label>
+            <select class="text" name="on_thyroxine">
+                <option value="text">select</option>
+                <option value="1">True</option>
+                <option value="0">False</option>
+        </select><br><br>
+
+            <label style="background-color:rgb(238,130,238);">sex:</label>
+            <select class="text" name="sex">
+                <option value="text">select</option>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+        </select><br><br>
+
+            <label style="background-color:rgb(238,130,238);">pregnant:</label>
+            <select class="text" name="pregnant">
+                <option value="text">select</option>
+                <option value="1">True</option>
+                <option value="0">False</option>
+        </select><br><br>
+
+            <label style="background-color:rgb(238,130,238);">psych:</label>
+            <select class="text" name="psych">
+                <option value="text">select</option>
+                <option value="1">True</option>
+                <option value="0">False</option>
+        </select><br><br>
+
+            <input type="submit" , value='Predict'> <br><br> 
+            <input type="reset", value='Reset value'> <br><br>
+        <p style="color:rgb(51, 42, 42);">Created by-----------Umasangavi G &#128512;</p> 
+        </form>
+
+        </center>
+    </body>
+</html>
+
+        
+
+            
+
+
+
+
+
+
+
+            
+        
+            
+            
+            
+    
