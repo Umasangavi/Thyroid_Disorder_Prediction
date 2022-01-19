@@ -34,11 +34,11 @@ Model Evaluation
 
 -Model evaluation done by classification and report was saved to .pkl file
 
- Model Saving
+Model Saving
  
-- we will save our models  so that we can use them for prediction purpose.
+-we will save our models  so that we can use them for prediction purpose.
 
- Cloud Setup
+Cloud Setup
 
 -Here We will do cloud setup for model deployment. Here we also create our
 flask app and user interface and integrate our model with flask app and UI
