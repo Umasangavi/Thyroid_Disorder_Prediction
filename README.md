@@ -6,7 +6,41 @@ The main goal is to predict the estimated risk on a patient's chance of obtainin
 
 **About Dataset**
 
-We will be using Thyroid Disease Data Set present in UCI Machine Learning Repository. This Data set is satisfying our data requirement. Total 3772 instances present in different batches of data. 
+From Garavan Institute
+
+Documentation: as given by Ross Quinlan
+
+6 databases from the Garavan Institute in Sydney, Australia
+
+Approximately the following for each database:
+
+2800 training (data) instances and 972 test instances
+
+Plenty of missing data
+
+29 or so attributes, either Boolean or continuously-valued
+
+2 additional databases, also from Ross Quinlan, are also here
+
+Hypothyroid.data and sick-euthyroid.data
+
+Quinlan believes that these databases have been corrupted
+
+Their format is highly similar to the other databases
+
+1 more database of 9172 instances that cover 20 classes, and a related domain theory
+
+Another thyroid database from Stefan Aeberhard
+
+3 classes, 215 instances, 5 attributes
+
+No missing values
+
+A Thyroid database suited for training
+
+3 classes
+
+3772 training instances 
 
 Thyroid Disease Data Set from UCI Machine Learning Repository For Data Set: https://archive.ics.uci.edu/ml/datasets/thyroid+disease
 
@@ -17,9 +51,7 @@ Export Data from database to CSV for Training
 
 -Here we will be exporting all batches of data from database into one csv file for training.
 
-Data Splitting 
-
--We filter the columns for splitting the data for train and test for further uses
+Data Splitting  -We filter the columns for splitting the data for train and test for further uses
 
 Data Preprocessing 
 
