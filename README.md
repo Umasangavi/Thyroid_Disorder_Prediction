@@ -97,15 +97,15 @@ Prediction:
 =================================================
 **High Level Design**
 =================================================
-URL : https://drive.google.com/file/d/1eYH2An2hjgl-x0ojr_IV5iPPj7pe218i/view?usp=sharing
+URL : https://drive.google.com/file/d/1iAKMJC5GvimwlsjPhnmGY6Ax8F8Ca61f/view?usp=sharing
 
 **Low Level Design**
 =================================================
-URL : https://drive.google.com/file/d/1iSZgg_BQfCyhWCEy_NCcQ9wCtO-re7_u/view?usp=sharing
+URL : https://drive.google.com/file/d/1hqA6N-ea-YSKcwIRPUgIpjcbKMiQ4IN6/view?usp=sharing
 
 **Architecture**
 =================================================
-URL : https://drive.google.com/file/d/1sgqQ1OAlHbI08eyNyk3Lv7GS_BsPJSP5/view?usp=sharing
+URL : https://drive.google.com/file/d/1uu4Hx-n15ETOMKE4Van_2kurtb8s1vI6/view?usp=sharing
 
 **Detailed Project Report**
 ==================================================
@@ -113,16 +113,15 @@ URL : https://drive.google.com/file/d/1KlxAQS2cca4UW0OJoY7nI6DIz9I3jgeK/view?usp
 
 **Wireframe**
 ===================================================
-URL : https://drive.google.com/file/d/1HPCk84o3v53bzdmcFBUezWLHw-Dfb7Od/view?usp=sharing
+URL : https://drive.google.com/file/d/1N3AE0l8osT2oDRmv4qZursWpna9E9BGI/view?usp=sharing
 
 **Demo video**
 ===================================================
-URL : https://drive.google.com/file/d/14KHesAnuqwvpjsiVuPmbMhaXehqcS_JM/view?usp=sharing
+URL :https://drive.google.com/file/d/1Dhdx8H9McBVJwAo-AIWMsc04lwsXxRxE/view?usp=sharing
 
 **Linkedin**
 ====================================================
-URL : https://www.linkedin.com/posts/umasangavi-ganesan-35316b175_ineuron-internship-datascience-activity-6890226434154098688-ZcMS 
-
+URL : https://www.linkedin.com/posts/umasangavi-ganesan-35316b175_ineuron-internship-datascience-activity-6890226434154098688-ZcMS
 
 
 
