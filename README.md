@@ -121,5 +121,7 @@ URL : https://drive.google.com/file/d/14KHesAnuqwvpjsiVuPmbMhaXehqcS_JM/view?usp
 
 
 
-its prediction of thyroid disorder using MLOPS
+
+
+
 
