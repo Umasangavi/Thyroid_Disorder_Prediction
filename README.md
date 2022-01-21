@@ -108,6 +108,8 @@ URL : https://drive.google.com/file/d/14KHesAnuqwvpjsiVuPmbMhaXehqcS_JM/view?usp
 
 
 
+![Demo video thyroid project](https://user-images.githubusercontent.com/92853376/150493806-eb38e55a-c283-4357-a0bb-bbd4483badb8.gif)
+
 
 
 
