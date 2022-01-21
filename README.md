@@ -14,42 +14,42 @@ Documentation: as given by Ross Quinlan
 
 Approximately the following for each database:
 
--2800 training (data) instances and 972 test instances
+ -2800 training (data) instances and 972 test instances
 
--Plenty of missing data
+ -Plenty of missing data
 
--29 or so attributes, either Boolean or continuously-valued
+ -29 or so attributes, either Boolean or continuously-valued
 
 2 additional databases, also from Ross Quinlan, are also here
 
--Hypothyroid.data and sick-euthyroid.data
+ -Hypothyroid.data and sick-euthyroid.data
 
--Quinlan believes that these databases have been corrupted
-
--Their format is highly similar to the other databases
+ -Quinlan believes that these databases have been corrupted
+ 
+ -Their format is highly similar to the other databases
 
 1 more database of 9172 instances that cover 20 classes, and a related domain theory
 
 Another thyroid database from Stefan Aeberhard
 
--3 classes, 215 instances, 5 attributes
+ -3 classes, 215 instances, 5 attributes
 
--No missing values
+ -No missing values
 
 A Thyroid database suited for training
 
--3 classes
+ -3 classes
 
--3772 training instances 
+ -3772 training instances 
 
 Thyroid Disease Data Set from UCI Machine Learning Repository For Data Set: https://archive.ics.uci.edu/ml/datasets/thyroid+disease
 
  Approach:
 -------------------------
 
-Data Description :We will be using Thyroid Disease Data Set present in UCI Machine Learning Repository. This Data set is satisfying our data requirement. Total 3772 instances present in different batches of data.
+Data Description : We will be using Thyroid Disease Data Set present in UCI Machine Learning Repository. This Data set is satisfying our data requirement. Total 3772 instances present in different batches of data.
 
-Export Data from database to CSV for Training :Here we will be exporting all batches of data from database into one csv file for training.
+Export Data from database to CSV for Training : Here we will be exporting all batches of data from database into one csv file for training.
 
 Data Splitting  : We filter the columns for splitting the data for train and test for further uses
 
@@ -84,27 +84,27 @@ Screenshots
 =================================================
 **High Level Design**
 =================================================
-URL :
+URL : https://drive.google.com/file/d/1eYH2An2hjgl-x0ojr_IV5iPPj7pe218i/view?usp=sharing
 
 **Low Level Design**
 =================================================
-URL :
+URL : https://drive.google.com/file/d/1iSZgg_BQfCyhWCEy_NCcQ9wCtO-re7_u/view?usp=sharing
 
 **Architecture**
 =================================================
-URL :
+URL : https://drive.google.com/file/d/1sgqQ1OAlHbI08eyNyk3Lv7GS_BsPJSP5/view?usp=sharing
 
 **Detailed Project Report**
 ==================================================
-URL :
+URL : https://drive.google.com/file/d/1KlxAQS2cca4UW0OJoY7nI6DIz9I3jgeK/view?usp=sharing
 
 **Wireframe**
 ===================================================
-URL :
+URL : https://drive.google.com/file/d/1HPCk84o3v53bzdmcFBUezWLHw-Dfb7Od/view?usp=sharing
 
-
-
-
+**Demo video**
+===================================================
+URL : https://drive.google.com/file/d/14KHesAnuqwvpjsiVuPmbMhaXehqcS_JM/view?usp=sharing
 
 
 
