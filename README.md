@@ -119,6 +119,11 @@ URL : https://drive.google.com/file/d/1HPCk84o3v53bzdmcFBUezWLHw-Dfb7Od/view?usp
 ===================================================
 URL : https://drive.google.com/file/d/14KHesAnuqwvpjsiVuPmbMhaXehqcS_JM/view?usp=sharing
 
+**Linkedin**
+====================================================
+URL : https://www.linkedin.com/posts/umasangavi-ganesan-35316b175_ineuron-internship-datascience-activity-6890226434154098688-ZcMS 
+
+
 
 
 
