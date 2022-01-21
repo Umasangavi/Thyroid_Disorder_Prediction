@@ -76,10 +76,23 @@ Export Prediction to CSV : Finally when we get all the prediction for client dat
 
 **Web Deployment**
 =================================================
-Thyroid disease detection Web App : 
-=================================================
+Thyroid disease detection Web App 
+
+URL : https://thyroidprediction-api.herokuapp.com/
+
 Screenshots
 =================================================
+Homepage:
+
+![image](https://user-images.githubusercontent.com/92853376/150495436-6c9e8a59-e706-42bc-80db-6a24245362ab.png)
+
+Prediction:
+
+![image](https://user-images.githubusercontent.com/92853376/150495676-4f418f37-6ae4-4963-a03a-1ca152102860.png)
+
+
+![image](https://user-images.githubusercontent.com/92853376/150495735-15d88025-1950-4cf3-97b0-8e9a432ba219.png)
+
 **Project Documents** :
 =================================================
 **High Level Design**
@@ -108,7 +121,9 @@ URL : https://drive.google.com/file/d/14KHesAnuqwvpjsiVuPmbMhaXehqcS_JM/view?usp
 
 
 
-![Demo video thyroid project](https://user-images.githubusercontent.com/92853376/150493806-eb38e55a-c283-4357-a0bb-bbd4483badb8.gif)
+
+
+
 
 
 
