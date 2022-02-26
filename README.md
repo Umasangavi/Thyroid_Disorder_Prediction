@@ -84,7 +84,7 @@ Screenshots
 =================================================
 Homepage:
 
-![image](https://user-images.githubusercontent.com/92853376/150495436-6c9e8a59-e706-42bc-80db-6a24245362ab.png)
+![image](https://user-images.githubusercontent.com/92853376/155833865-5d58b242-85f7-416e-8137-f9ebd6c782e3.png)
 
 Prediction:
 
@@ -113,7 +113,7 @@ URL : https://drive.google.com/file/d/1KlxAQS2cca4UW0OJoY7nI6DIz9I3jgeK/view?usp
 
 **Wireframe**
 ===================================================
-URL : https://drive.google.com/file/d/1N3AE0l8osT2oDRmv4qZursWpna9E9BGI/view?usp=sharing
+URL : https://drive.google.com/file/d/1ZpGWK3ZnwCuOtofG1aZOuOPuvpiuwYfS/view?usp=sharing
 
 **Demo video**
 ===================================================
